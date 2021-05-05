@@ -5,7 +5,7 @@ from tkinter import *
 
 def add_numbers():
     r = int(e1.get())+int(e2.get())
-    label_text.set(r)
+    e3.insert(0, r)
 
 
 def clear():
